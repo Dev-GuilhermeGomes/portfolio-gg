@@ -14,7 +14,7 @@ function SocialIcon({
     <Link
       href={href}
       aria-label={label}
-      className="text-slate-300 transition hover:text-white"
+      className="text-slate-600 dark:text-slate-300 transition hover:text-slate-900 dark:hover:text-white"
       target="_blank"
       rel="noreferrer"
     >
@@ -26,7 +26,7 @@ function SocialIcon({
 
 export default function Footer() {
   return (
-    <footer className="mt-auto border-t border-black/20 bg-black px-6 py-6 text-slate-300 sm:px-10">
+    <footer className="mt-auto border-t border-slate-200 dark:border-black/20 bg-white dark:bg-black px-6 py-6 text-slate-700 dark:text-slate-300 sm:px-10">
       <div className="mx-auto flex w-full max-w-7xl flex-col items-start justify-between gap-4 text-sm sm:flex-row sm:items-center">
         <p>© 2026 Guilherme Gomes. All rights reserved.</p>
 

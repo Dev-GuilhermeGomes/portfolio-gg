@@ -15,22 +15,22 @@ export default function PortfolioPage() {
       <Navbar />
       <main className="mx-auto w-full max-w-7xl px-4 py-12 sm:px-8 lg:py-16">
         <header className="mb-12 text-center">
-          <h1 className="mb-5 text-6xl font-medium text-black">Portfolio</h1>
-          <p className="text-4xl text-slate-600">A showcase of my software development projects</p>
+          <h1 className="mb-5 text-6xl font-medium text-black dark:text-white">Portfolio</h1>
+          <p className="text-4xl text-slate-600 dark:text-slate-400">A showcase of my software development projects</p>
         </header>
 
         <section className="grid gap-8 lg:grid-cols-3">
           {portfolioProjects.map((project, index) => (
-            <article key={project.title} className="overflow-hidden rounded-2xl border border-slate-200 bg-white">
+            <article key={project.title} className="overflow-hidden rounded-2xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800">
               <div className={`h-56 ${bannerStyles[index % bannerStyles.length]}`} />
 
               <div className="space-y-5 p-6">
-                <h2 className="text-4xl font-medium text-black">{project.title}</h2>
-                <p className="text-2xl leading-relaxed text-slate-600">{project.description}</p>
+                <h2 className="text-4xl font-medium text-black dark:text-white">{project.title}</h2>
+                <p className="text-2xl leading-relaxed text-slate-600 dark:text-slate-400">{project.description}</p>
 
                 <ul className="flex flex-wrap gap-2">
                   {project.stack.map((tech) => (
-                    <li key={tech} className="rounded-full bg-slate-100 px-3 py-1 text-xl text-slate-600">
+                    <li key={tech} className="rounded-full bg-slate-100 dark:bg-slate-700 px-3 py-1 text-xl text-slate-600 dark:text-slate-300">
                       {tech}
                     </li>
                   ))}
@@ -38,7 +38,7 @@ export default function PortfolioPage() {
 
                 <Link
                   href={`/portfolio/${project.slug}`}
-                  className="w-full rounded-xl border border-red-600 px-4 py-3 text-2xl font-medium text-red-600 transition hover:bg-red-50"
+                  className="w-full rounded-xl border border-red-600 px-4 py-3 text-2xl font-medium text-red-600 dark:text-red-400 transition hover:bg-red-50 dark:hover:bg-red-900/20"
                 >
                   View Details
                 </Link>
