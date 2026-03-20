@@ -10,9 +10,9 @@ export default function Home() {
       <main>
         <section className="mx-auto w-full max-w-7xl px-4 py-14 text-center sm:px-8 lg:py-20">
           <h1 className="mb-5 text-6xl font-medium text-black sm:text-7xl">Guilherme Gomes</h1>
-          <p className="mb-5 text-4xl text-slate-700 sm:text-5xl">Project Management & Software Development Student</p>
+          <p className="mb-5 text-4xl text-slate-700 sm:text-5xl"> Software Development Student</p>
           <p className="mx-auto mb-8 max-w-4xl text-2xl text-slate-600 sm:text-3xl">
-            Building digital solutions and managing projects with passion for innovation and continuous growth
+            Building digital solutions and managing projects with passion for innovation and continuous growth to make a positive impact in the tech industry.
           </p>
 
           <div className="flex flex-wrap justify-center gap-4">

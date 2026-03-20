@@ -79,22 +79,24 @@ export const cvRequestMailto =
   "mailto:guilherme.fggomes07@gmail.com?subject=CV%20Request%20-%20Guilherme%20Gomes";
 
 export const aboutProfile: AboutProfile = {
-  logoLabel: "DGG",
+  logoLabel: "GG",
   name: "Guilherme Gomes",
-  role: "Project Management & Software Development Student",
+  role: "Software Development Student",
   summary:
     "I combine software development with project management to deliver digital products that are useful, scalable, and aligned with business goals.",
   details:
-    "I enjoy working from planning to delivery: organizing scope, collaborating with teams, and building interfaces and systems with clean and maintainable code.",
+    "I enjoy working from planning to delivery: organizing scope, collaborating with teams and building interfaces. If you want to know more about my projects or experience, feel free to reach out!",
 };
 
 export const coreSkills: string[] = [
-  "React",
+  "JavaScript",
   "TypeScript",
+  "Node.js",
+  "HTML & CSS",
   "Python",
+  "React",
   "Scrum",
   "Agile",
-  "Jira",
 ];
 
 export const softSkills: string[] = [
@@ -107,33 +109,35 @@ export const softSkills: string[] = [
 ];
 
 export const hardSkills: SkillItem[] = [
-  { name: "React & TypeScript", level: 88 },
-  { name: "Python", level: 82 },
-  { name: "Node.js", level: 78 },
-  { name: "SQL & Databases", level: 72 },
-  { name: "Git & Version Control", level: 87 },
-  { name: "Scrum & Agile", level: 84 },
+  { name: "React & TypeScript", level: 75 },
+  { name: "HTML & CSS", level: 80 },
+  { name: "JavaScript and Node.js", level: 85 },
+  { name: "Python", level: 70 },
+  { name: "Node.js", level: 80 },
+  { name: "SQL & Databases", level: 82 },
+  { name: "Git & Version Control", level: 80 },
+  { name: "Scrum & Agile", level: 85 },
 ];
 
 export const experiences = [
   {
     role: "Project Management Intern",
-    company: "Digital Product Studio",
-    period: "2025 - Present",
+    company: "ISTEC-PORTO",
+    period: "2026 - Present",
     description:
-      "Supporting sprint planning, stakeholder follow-ups, and delivery tracking for web and mobile products.",
+      "Supporting sprint planning, stakeholder follow-ups, and delivery tracking for web and mobile products with a focus on agile methodologies.",
   },
   {
-    role: "Front-end Developer Intern",
-    company: "Tech Innovations Lab",
+    role: "Internship in Loja Enter ",
+    company: "Loja Enter",
     period: "2024 - 2025",
     description:
-      "Built responsive interfaces with React and TypeScript, improving usability and performance in internal dashboards.",
+      "Responsible for supporting the configuration and maintenance of the computer systems, and Tablets and Smartphones.",
   },
   {
     role: "Freelance Web Developer",
     company: "Personal Projects",
-    period: "2023 - 2024",
+    period: "2026 - Present",
     description:
       "Created websites and small management systems for local clients, from requirements to deployment.",
   },
@@ -141,50 +145,28 @@ export const experiences = [
 
 export const education = [
   {
-    degree: "BSc in Software Engineering",
-    institution: "Instituto Politecnico",
-    period: "2022 - 2026",
+    degree: "Software Development",
+    institution: "Instituto Superior de Tecnologias Avançadas Do Porto (ISTEC)",
+    period: "2025 - 2027",
     description: "Focus on Software Development, Systems Analysis, and Project Management.",
-  },
-  {
-    degree: "Professional Course in Project Management",
-    institution: "Online Certification Program",
-    period: "2025",
-    description: "Practical training in Scrum, planning, risk control, and team communication.",
   },
 ];
 
 export const languages = [
   { name: "Portuguese", level: "Native" },
-  { name: "English", level: "Advanced (C1)" },
-  { name: "French", level: "Basic (A2)" },
+  { name: "English", level: "Medium (B1)" },
+  { name: "French", level: "Basic (A1)" },
   { name: "German", level: "Basic (A1)" },
 ];
 
 export const hobbies: string[] = [
-  "Open Source Contribution",
-  "Tech Blogging",
-  "Photography",
-  "Hiking",
-  "Reading Tech Books",
+  "Open Source Contribution with my friends",
+  "youTube Content Creation about Gaming",
+  "Play video games and Board Games",
+  "Reading Manga and Light Novels, and Watching Anime",
 ];
 
 export const portfolioProjects: ProjectItem[] = [
-  {
-    slug: "ecommerce-platform",
-    title: "E-Commerce Platform",
-    description:
-      "A full-stack e-commerce solution with payment integration and admin dashboard.",
-    longDescription:
-      "This project delivers a complete e-commerce experience with product listing, cart, secure checkout, and an admin area for order and catalog management.",
-    stack: ["React", "Node.js", "MongoDB", "Stripe"],
-    highlights: [
-      "Integrated online payments with Stripe",
-      "Built role-based admin dashboard",
-      "Implemented product and order analytics",
-    ],
-    repoUrl: "https://github.com/Dev-GuilhermeGomes",
-  },
   {
     slug: "task-management-app",
     title: "Task Management App",
@@ -213,7 +195,7 @@ export const portfolioProjects: ProjectItem[] = [
       "Fast page loads with static rendering",
       "Easy content updates via structured data",
     ],
-    repoUrl: "https://github.com/Dev-GuilhermeGomes",
+    repoUrl: "https://github.com/Dev-GuilhermeGomes/portfolio-gg",
   },
 ];
 
@@ -221,23 +203,23 @@ export const managementProjects: ManagementItem[] = [
   {
     title: "Mobile App Development",
     methodology: "Scrum",
-    teamSize: 8,
-    deadline: "Apr 2026",
-    progress: 65,
+    teamSize: 4,
+    deadline: "Feb 2026",
+    progress: 50,
     status: "Active",
   },
   {
     title: "Website Redesign",
     methodology: "Kanban",
-    teamSize: 5,
-    deadline: "May 2026",
+    teamSize: 1,
+    deadline: "Apr 2026",
     progress: 40,
     status: "Active",
   },
   {
     title: "API Integration",
     methodology: "Scrum",
-    teamSize: 6,
+    teamSize: 4,
     deadline: "Mar 2026",
     progress: 100,
     status: "Completed",
@@ -245,7 +227,7 @@ export const managementProjects: ManagementItem[] = [
   {
     title: "Cloud Migration",
     methodology: "Waterfall",
-    teamSize: 7,
+    teamSize: 1,
     deadline: "Jun 2026",
     progress: 30,
     status: "Active",
@@ -266,7 +248,7 @@ export const managementKanban: KanbanColumn[] = [
       {
         title: "Finalize migration checklist",
         project: "Cloud Migration",
-        owner: "Infra Team",
+        owner: "Guilherme ",
         priority: "High",
       },
     ],
